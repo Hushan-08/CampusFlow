@@ -1,0 +1,1960 @@
+{
+  "campus_info": {
+    "name": "Chandigarh University (CU)",
+    "system_name": "CampusFlow",
+    "tagline": "Find Your Way Around Campus.",
+    "location": "NH-05 Chandigarh-Ludhiana Highway, Gharuan, Mohali, Punjab 140413",
+    "is_demonstration_data": false,
+    "accuracy_note": "Reconstructed 100% against OpenStreetMap building footprints and verified CU 360-degree aerial tour. Contains all South Campus D-blocks (D1-D7, Star Library, Shivalik), Central Academic Area (A1-A3, B1-B5, Fountain Park, Central Passage, Knowledge Centre, Food Court, SBI), C-Block & Hostels (C1-C3, NC1-NC6, Zakir A-D), Main Gate 1, and Maka Trophy Sports Complex.",
+    "default_walking_speed_meters_per_minute": 80.0,
+    "speed_description": "Standard human walking pace (~4.8 km/h or ~80 m/min)"
+  },
+  "locations": [
+    {
+      "id": "d1",
+      "name": "Academic Block D1",
+      "code": "D1-01",
+      "category": "Academic Block",
+      "region": "South Campus",
+      "icon": "💻",
+      "description": "Premier Computer Science & Engineering academic block in South Campus.",
+      "coordinates": {
+        "lat": 30.771579,
+        "lng": 76.570122
+      },
+      "aliases": [
+        "D1",
+        "Block D1",
+        "CSE D1",
+        "South Campus D1"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 226,
+        "y": 161
+      }
+    },
+    {
+      "id": "d2",
+      "name": "Academic Block D2",
+      "code": "D2-02",
+      "category": "Academic Block",
+      "region": "South Campus",
+      "icon": "💻",
+      "description": "Academic Block D2 housing emerging technology labs and HR Cafe.",
+      "coordinates": {
+        "lat": 30.771494,
+        "lng": 76.570316
+      },
+      "aliases": [
+        "D2",
+        "Block D2",
+        "HR Cafe D2"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 244,
+        "y": 168
+      }
+    },
+    {
+      "id": "d3",
+      "name": "Academic Block D3",
+      "code": "D3-03",
+      "category": "Academic Block",
+      "region": "South Campus",
+      "icon": "💻",
+      "description": "Academic Block D3 on the eastern flank of South Campus quad.",
+      "coordinates": {
+        "lat": 30.770896,
+        "lng": 76.570423
+      },
+      "aliases": [
+        "D3",
+        "Block D3"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 253,
+        "y": 214
+      }
+    },
+    {
+      "id": "d4",
+      "name": "Academic Block D4",
+      "code": "D4-04",
+      "category": "Academic Block",
+      "region": "South Campus",
+      "icon": "💻",
+      "description": "Academic Block D4 on the south side of South Campus quad.",
+      "coordinates": {
+        "lat": 30.770449,
+        "lng": 76.570217
+      },
+      "aliases": [
+        "D4",
+        "Block D4"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 235,
+        "y": 249
+      }
+    },
+    {
+      "id": "d5",
+      "name": "Academic Block D5",
+      "code": "D5-05",
+      "category": "Academic Block",
+      "region": "South Campus",
+      "icon": "💻",
+      "description": "Academic Block D5 on the western flank of South Campus quad.",
+      "coordinates": {
+        "lat": 30.771035,
+        "lng": 76.569735
+      },
+      "aliases": [
+        "D5",
+        "Block D5"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 191,
+        "y": 203
+      }
+    },
+    {
+      "id": "d6_star_library",
+      "name": "D6 – Star Library",
+      "code": "D6-06",
+      "category": "Library",
+      "region": "South Campus",
+      "icon": "📚",
+      "description": "Architectural Star Library (Block D6) featuring expansive reading halls and digital research labs.",
+      "coordinates": {
+        "lat": 30.771612,
+        "lng": 76.569373
+      },
+      "aliases": [
+        "D6",
+        "Star Library",
+        "Block D6",
+        "Central Library D6"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 158,
+        "y": 159
+      }
+    },
+    {
+      "id": "d7",
+      "name": "Academic Block D7",
+      "code": "D7-07",
+      "category": "Academic Block",
+      "region": "South Campus",
+      "icon": "💻",
+      "description": "Academic Block D7 located at the northern perimeter of South Campus.",
+      "coordinates": {
+        "lat": 30.772277,
+        "lng": 76.569504
+      },
+      "aliases": [
+        "D7",
+        "Block D7"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 170,
+        "y": 107
+      }
+    },
+    {
+      "id": "shivalik_hostel",
+      "name": "Shivalik Hostel",
+      "code": "SH-08",
+      "category": "Student Housing",
+      "region": "South Campus",
+      "icon": "🏠",
+      "description": "Student residential hall adjacent to Star Library on western South Campus.",
+      "coordinates": {
+        "lat": 30.771105,
+        "lng": 76.568719
+      },
+      "aliases": [
+        "Shivalik",
+        "Shivalik Hostel",
+        "Shivalik Boys Hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 99,
+        "y": 198
+      }
+    },
+    {
+      "id": "a1",
+      "name": "Academic Block A1",
+      "code": "A1-09",
+      "category": "Academic Block",
+      "region": "Central Academic Area",
+      "icon": "🏛️",
+      "description": "Academic Block A1 near the northern entrance avenue.",
+      "coordinates": {
+        "lat": 30.771809,
+        "lng": 76.578244
+      },
+      "aliases": [
+        "A1",
+        "Block A1",
+        "Block-1"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 961,
+        "y": 143
+      }
+    },
+    {
+      "id": "a2",
+      "name": "Academic Block A2",
+      "code": "A2-10",
+      "category": "Academic Block",
+      "region": "Central Academic Area",
+      "icon": "🏛️",
+      "description": "Academic Block A2 on the eastern flank of the central lawns.",
+      "coordinates": {
+        "lat": 30.769833,
+        "lng": 76.579347
+      },
+      "aliases": [
+        "A2",
+        "Block A2",
+        "Block-2"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 1060,
+        "y": 297
+      }
+    },
+    {
+      "id": "a3",
+      "name": "Academic Block A3",
+      "code": "A3-11",
+      "category": "Academic Block",
+      "region": "Central Academic Area",
+      "icon": "🏛️",
+      "description": "Academic Block A3 facing Fountain Park on the east.",
+      "coordinates": {
+        "lat": 30.7691,
+        "lng": 76.578553
+      },
+      "aliases": [
+        "A3",
+        "Block A3",
+        "Block-3"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 989,
+        "y": 354
+      }
+    },
+    {
+      "id": "b1_kalam",
+      "name": "B1 Academic Block (Kalam Block)",
+      "code": "B1-12",
+      "category": "Academic Block",
+      "region": "Central Academic Area",
+      "icon": "🎨",
+      "description": "Iconic B1 Academic Block featuring the Dr. A.P.J. Abdul Kalam mural, adjacent to Fountain Park.",
+      "coordinates": {
+        "lat": 30.770043,
+        "lng": 76.575775
+      },
+      "aliases": [
+        "B1",
+        "Kalam Block",
+        "Block B1",
+        "Kalam Mural"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 737,
+        "y": 281
+      }
+    },
+    {
+      "id": "b2",
+      "name": "B2 Academic Block",
+      "code": "B2-13",
+      "category": "Academic Block",
+      "region": "Central Academic Area",
+      "icon": "⚙️",
+      "description": "B2 Academic Block housing engineering departments directly south of B1.",
+      "coordinates": {
+        "lat": 30.769127,
+        "lng": 76.575778
+      },
+      "aliases": [
+        "B2",
+        "Block B2",
+        "Engineering B2"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 738,
+        "y": 352
+      }
+    },
+    {
+      "id": "b3",
+      "name": "B3 Academic Block",
+      "code": "B3-14",
+      "category": "Academic Block",
+      "region": "Central Academic Area",
+      "icon": "⚙️",
+      "description": "B3 Academic Block with engineering classrooms and workshops.",
+      "coordinates": {
+        "lat": 30.768741,
+        "lng": 76.575752
+      },
+      "aliases": [
+        "B3",
+        "Block B3"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 735,
+        "y": 382
+      }
+    },
+    {
+      "id": "b4",
+      "name": "B4 Academic Block",
+      "code": "B4-15",
+      "category": "Academic Block",
+      "region": "Central Academic Area",
+      "icon": "⚙️",
+      "description": "B4 Academic Block west of B3 with labs and lecture halls.",
+      "coordinates": {
+        "lat": 30.76875,
+        "lng": 76.5747
+      },
+      "aliases": [
+        "B4",
+        "Block B4"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 640,
+        "y": 381
+      }
+    },
+    {
+      "id": "b5_daca",
+      "name": "B5 – DACA Block",
+      "code": "B5-16",
+      "category": "Academic Block",
+      "region": "Central Academic Area",
+      "icon": "🎨",
+      "description": "Block B5 housing Department of Animation and Creative Arts (DACA).",
+      "coordinates": {
+        "lat": 30.770235,
+        "lng": 76.57202
+      },
+      "aliases": [
+        "B5",
+        "DACA",
+        "Block B5",
+        "B5 DACA"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 398,
+        "y": 266
+      }
+    },
+    {
+      "id": "fountain_park",
+      "name": "Fountain Park",
+      "code": "FP-17",
+      "category": "Parks & Lawns",
+      "region": "Central Academic Area",
+      "icon": "⛲",
+      "description": "Circular landscaped green park with central fountain and perimeter seating.",
+      "coordinates": {
+        "lat": 30.769726,
+        "lng": 76.577112
+      },
+      "aliases": [
+        "Fountain Park",
+        "Central Fountain",
+        "The Fountain"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Park Boundary)",
+      "schematic": {
+        "x": 858,
+        "y": 305
+      }
+    },
+    {
+      "id": "central_passage",
+      "name": "Central Passage",
+      "code": "CP-18",
+      "category": "Central Concourse",
+      "region": "Central Academic Area",
+      "icon": "🚶",
+      "description": "Central pedestrian promenade connecting Fountain Park to Kalam Block B1.",
+      "coordinates": {
+        "lat": 30.7698,
+        "lng": 76.5764
+      },
+      "aliases": [
+        "Central Passage",
+        "CP",
+        "Central Concourse",
+        "Main Walkway"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (CU 360 & OSM Concourse)",
+      "schematic": {
+        "x": 794,
+        "y": 300
+      }
+    },
+    {
+      "id": "central_knowledge_centre",
+      "name": "Central Knowledge Centre",
+      "code": "KC-19",
+      "category": "Library",
+      "region": "Central Academic Area",
+      "icon": "📖",
+      "description": "Central digital repository, reference library, and study centre in the central academic core.",
+      "coordinates": {
+        "lat": 30.77015,
+        "lng": 76.5768
+      },
+      "aliases": [
+        "Knowledge Centre",
+        "Central Library",
+        "CKC",
+        "Central Knowledge Center"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (CU Central Concourse)",
+      "schematic": {
+        "x": 830,
+        "y": 272
+      }
+    },
+    {
+      "id": "food_court",
+      "name": "Central Cafeteria & Food Court",
+      "code": "FC-20",
+      "category": "Dining & Food",
+      "region": "Central Academic Area",
+      "icon": "☕",
+      "description": "Vibrant campus food court and food shop plaza north of Fountain Park.",
+      "coordinates": {
+        "lat": 30.771365,
+        "lng": 76.57748
+      },
+      "aliases": [
+        "Food Court",
+        "Central Cafeteria",
+        "food shop",
+        "Cafeteria",
+        "Canteen"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Food Shop Plaza)",
+      "schematic": {
+        "x": 892,
+        "y": 178
+      }
+    },
+    {
+      "id": "sbi_bank",
+      "name": "State Bank of India (SBI Plaza)",
+      "code": "SB-21",
+      "category": "Banking & Services",
+      "region": "Central Academic Area",
+      "icon": "🏦",
+      "description": "On-campus State Bank of India branch, ATM kiosk, and financial service centre.",
+      "coordinates": {
+        "lat": 30.770707,
+        "lng": 76.576459
+      },
+      "aliases": [
+        "SBI",
+        "State Bank of India",
+        "SBI ATM",
+        "Bank"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Amenity Node)",
+      "schematic": {
+        "x": 799,
+        "y": 229
+      }
+    },
+    {
+      "id": "parking_central",
+      "name": "Fountain Park Parking Area",
+      "code": "PK-22",
+      "category": "Parking",
+      "region": "Central Academic Area",
+      "icon": "🅿️",
+      "description": "Vehicle and two-wheeler parking facility north-west of Fountain Park.",
+      "coordinates": {
+        "lat": 30.770364,
+        "lng": 76.576941
+      },
+      "aliases": [
+        "Parking",
+        "Central Parking",
+        "Fountain Parking",
+        "P2"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Parking Node)",
+      "schematic": {
+        "x": 843,
+        "y": 256
+      }
+    },
+    {
+      "id": "parking_b3",
+      "name": "B3 Engineering Parking Area",
+      "code": "PK-23",
+      "category": "Parking",
+      "region": "Central Academic Area",
+      "icon": "🅿️",
+      "description": "Parking lot located south of B3 Academic Block near the green fields.",
+      "coordinates": {
+        "lat": 30.768346,
+        "lng": 76.575962
+      },
+      "aliases": [
+        "B3 Parking",
+        "Engineering Parking",
+        "P3"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Parking Node)",
+      "schematic": {
+        "x": 754,
+        "y": 413
+      }
+    },
+    {
+      "id": "c1",
+      "name": "Academic Block C1",
+      "code": "C1-24",
+      "category": "Academic Block",
+      "region": "C Block and Hostel Area",
+      "icon": "⚙️",
+      "description": "Academic Block C1 south of the engineering quad.",
+      "coordinates": {
+        "lat": 30.766896,
+        "lng": 76.576097
+      },
+      "aliases": [
+        "C1",
+        "Block C1"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Node)",
+      "schematic": {
+        "x": 767,
+        "y": 525
+      }
+    },
+    {
+      "id": "c2",
+      "name": "C2 Academic Block",
+      "code": "C2-25",
+      "category": "Academic Block",
+      "region": "C Block and Hostel Area",
+      "icon": "⚙️",
+      "description": "C2 Academic Block housing applied sciences and specialized labs.",
+      "coordinates": {
+        "lat": 30.766217,
+        "lng": 76.576107
+      },
+      "aliases": [
+        "C2",
+        "Block C2",
+        "C2 Academic Block"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 767,
+        "y": 578
+      }
+    },
+    {
+      "id": "c3",
+      "name": "Academic Block C3",
+      "code": "C3-26",
+      "category": "Academic Block",
+      "region": "C Block and Hostel Area",
+      "icon": "⚙️",
+      "description": "Academic Block C3 situated south-west of the engineering quad.",
+      "coordinates": {
+        "lat": 30.767311,
+        "lng": 76.574632
+      },
+      "aliases": [
+        "C3",
+        "Block C3"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Node)",
+      "schematic": {
+        "x": 634,
+        "y": 493
+      }
+    },
+    {
+      "id": "nc1_hostel",
+      "name": "NC 1 Boys Hostel",
+      "code": "NC-27",
+      "category": "Student Housing",
+      "region": "C Block and Hostel Area",
+      "icon": "🏠",
+      "description": "NC 1 Boys residential hall in southern hostel complex.",
+      "coordinates": {
+        "lat": 30.764147,
+        "lng": 76.57522
+      },
+      "aliases": [
+        "NC1",
+        "NC 1",
+        "NC 1 Hostel",
+        "NC 1 Boys hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 687,
+        "y": 739
+      }
+    },
+    {
+      "id": "nc2_hostel",
+      "name": "NC 2 Boys Hostel",
+      "code": "NC-28",
+      "category": "Student Housing",
+      "region": "C Block and Hostel Area",
+      "icon": "🏠",
+      "description": "NC 2 Boys residential hall in southern hostel complex.",
+      "coordinates": {
+        "lat": 30.764542,
+        "lng": 76.575076
+      },
+      "aliases": [
+        "NC2",
+        "NC 2",
+        "NC 2 Hostel",
+        "NC 2 Boys hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 674,
+        "y": 708
+      }
+    },
+    {
+      "id": "nc3_hostel",
+      "name": "NC 3 Boys Hostel",
+      "code": "NC-29",
+      "category": "Student Housing",
+      "region": "C Block and Hostel Area",
+      "icon": "🏠",
+      "description": "NC 3 Boys residential hall in southern hostel complex.",
+      "coordinates": {
+        "lat": 30.764148,
+        "lng": 76.574404
+      },
+      "aliases": [
+        "NC3",
+        "NC 3",
+        "NC 3 Hostel",
+        "NC 3 Boys hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Node)",
+      "schematic": {
+        "x": 613,
+        "y": 739
+      }
+    },
+    {
+      "id": "nc4_hostel",
+      "name": "NC 4 Boys Hostel",
+      "code": "NC-30",
+      "category": "Student Housing",
+      "region": "C Block and Hostel Area",
+      "icon": "🏠",
+      "description": "NC 4 Boys residential hall in southern hostel complex.",
+      "coordinates": {
+        "lat": 30.764704,
+        "lng": 76.574323
+      },
+      "aliases": [
+        "NC4",
+        "NC 4",
+        "NC 4 Hostel",
+        "NC 4 Boys hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 606,
+        "y": 696
+      }
+    },
+    {
+      "id": "nc5_hostel",
+      "name": "NC 5 Boys Hostel",
+      "code": "NC-31",
+      "category": "Student Housing",
+      "region": "C Block and Hostel Area",
+      "icon": "🏠",
+      "description": "NC 5 Boys residential hall in southern hostel complex.",
+      "coordinates": {
+        "lat": 30.764146,
+        "lng": 76.573596
+      },
+      "aliases": [
+        "NC5",
+        "NC 5",
+        "NC 5 Hostel",
+        "NC 5 Boys hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 540,
+        "y": 739
+      }
+    },
+    {
+      "id": "nc6_hostel",
+      "name": "NC 6 Boys Hostel",
+      "code": "NC-32",
+      "category": "Student Housing",
+      "region": "C Block and Hostel Area",
+      "icon": "🏠",
+      "description": "NC 6 Boys residential hall in southern hostel complex.",
+      "coordinates": {
+        "lat": 30.764734,
+        "lng": 76.573531
+      },
+      "aliases": [
+        "NC6",
+        "NC 6",
+        "NC 6 Hostel",
+        "NC 6 Boys hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 534,
+        "y": 694
+      }
+    },
+    {
+      "id": "zakir_a_hostel",
+      "name": "Zakir A Boys Hostel",
+      "code": "ZK-33",
+      "category": "Student Housing",
+      "region": "C Block and Hostel Area",
+      "icon": "🏠",
+      "description": "Zakir A residential tower in South-West hostel enclave.",
+      "coordinates": {
+        "lat": 30.764314,
+        "lng": 76.572529
+      },
+      "aliases": [
+        "Zakir A",
+        "Zakir A Hostel",
+        "Zakir A Boys Hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 444,
+        "y": 726
+      }
+    },
+    {
+      "id": "zakir_b_hostel",
+      "name": "Zakir B Boys Hostel",
+      "code": "ZK-34",
+      "category": "Student Housing",
+      "region": "C Block and Hostel Area",
+      "icon": "🏠",
+      "description": "Zakir B residential tower in South-West hostel enclave.",
+      "coordinates": {
+        "lat": 30.764375,
+        "lng": 76.571516
+      },
+      "aliases": [
+        "Zakir B",
+        "Zakir B Hostel",
+        "Zakir B Boys Hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 352,
+        "y": 721
+      }
+    },
+    {
+      "id": "zakir_c_hostel",
+      "name": "Zakir C Boys Hostel",
+      "code": "ZK-35",
+      "category": "Student Housing",
+      "region": "C Block and Hostel Area",
+      "icon": "🏠",
+      "description": "Zakir C residential tower in South-West hostel enclave.",
+      "coordinates": {
+        "lat": 30.763629,
+        "lng": 76.572673
+      },
+      "aliases": [
+        "Zakir C",
+        "Zakir C Hostel",
+        "Zakir C Boys Hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 457,
+        "y": 779
+      }
+    },
+    {
+      "id": "zakir_d_hostel",
+      "name": "Zakir D Boys Hostel",
+      "code": "ZK-36",
+      "category": "Student Housing",
+      "region": "C Block and Hostel Area",
+      "icon": "🏠",
+      "description": "Zakir D residential tower in South-West hostel enclave.",
+      "coordinates": {
+        "lat": 30.763688,
+        "lng": 76.571933
+      },
+      "aliases": [
+        "Zakir D",
+        "Zakir D Hostel",
+        "Zakir D Boys Hostel"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Building Footprint)",
+      "schematic": {
+        "x": 390,
+        "y": 775
+      }
+    },
+    {
+      "id": "main_gate",
+      "name": "Main Gate 1 (NH-05 Entrance)",
+      "code": "GATE-01",
+      "category": "Campus Entrance",
+      "region": "Campus Perimeter",
+      "icon": "🚪",
+      "description": "Main ceremonial gateway of Chandigarh University facing NH-05 highway with security plaza.",
+      "coordinates": {
+        "lat": 30.771652,
+        "lng": 76.579716
+      },
+      "aliases": [
+        "Main Gate",
+        "Gate 1",
+        "NH-5 Gate",
+        "Entry",
+        "Main Entrance"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Way Gate 1)",
+      "schematic": {
+        "x": 1094,
+        "y": 155
+      }
+    },
+    {
+      "id": "sports_complex",
+      "name": "Sports Complex (Maka Trophy)",
+      "code": "SF-38",
+      "category": "Athletics & Sports",
+      "region": "South Campus",
+      "icon": "⚽",
+      "description": "Grand multi-sport complex, athletic stadium, and Maka Trophy sports grounds directly south of D-Blocks.",
+      "coordinates": {
+        "lat": 30.768684,
+        "lng": 76.568983
+      },
+      "aliases": [
+        "Sports Complex",
+        "Maka Trophy",
+        "Sports Field",
+        "Stadium",
+        "Playground"
+      ],
+      "node_type": "destination",
+      "verification_status": "Verified (OSM Leisure Sports Centre)",
+      "schematic": {
+        "x": 123,
+        "y": 386
+      }
+    },
+    {
+      "id": "j_gate_plaza",
+      "name": "Gate 1 Arrival Plaza",
+      "coordinates": {
+        "lat": 30.7715,
+        "lng": 76.5793
+      },
+      "code": "J_GATE_PLAZA",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Gate 1 Arrival Plaza",
+      "aliases": [
+        "Gate 1 Arrival Plaza"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 1056,
+        "y": 167
+      }
+    },
+    {
+      "id": "j_north_avenue",
+      "name": "North Entrance Avenue",
+      "coordinates": {
+        "lat": 30.77145,
+        "lng": 76.578
+      },
+      "code": "J_NORTH_AVENUE",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: North Entrance Avenue",
+      "aliases": [
+        "North Entrance Avenue"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 939,
+        "y": 171
+      }
+    },
+    {
+      "id": "j_food_court",
+      "name": "Food Court & SBI Plaza",
+      "coordinates": {
+        "lat": 30.7711,
+        "lng": 76.5771
+      },
+      "code": "J_FOOD_COURT",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Food Court & SBI Plaza",
+      "aliases": [
+        "Food Court & SBI Plaza"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 857,
+        "y": 198
+      }
+    },
+    {
+      "id": "j_fountain_north",
+      "name": "Fountain Park North Gate",
+      "coordinates": {
+        "lat": 30.7702,
+        "lng": 76.5771
+      },
+      "code": "J_FOUNTAIN_NORTH",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Fountain Park North Gate",
+      "aliases": [
+        "Fountain Park North Gate"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 857,
+        "y": 268
+      }
+    },
+    {
+      "id": "j_fountain_east",
+      "name": "Fountain Park East Concourse",
+      "coordinates": {
+        "lat": 30.7695,
+        "lng": 76.5782
+      },
+      "code": "J_FOUNTAIN_EAST",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Fountain Park East Concourse",
+      "aliases": [
+        "Fountain Park East Concourse"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 957,
+        "y": 323
+      }
+    },
+    {
+      "id": "j_fountain_center",
+      "name": "Fountain Park Central Hub",
+      "coordinates": {
+        "lat": 30.76978,
+        "lng": 76.57695
+      },
+      "code": "J_FOUNTAIN_CENTER",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Fountain Park Central Hub",
+      "aliases": [
+        "Fountain Park Central Hub"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 844,
+        "y": 301
+      }
+    },
+    {
+      "id": "j_kalam_plaza",
+      "name": "Kalam Block Plaza (B1)",
+      "coordinates": {
+        "lat": 30.77,
+        "lng": 76.5761
+      },
+      "code": "J_KALAM_PLAZA",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Kalam Block Plaza (B1)",
+      "aliases": [
+        "Kalam Block Plaza (B1)"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 767,
+        "y": 284
+      }
+    },
+    {
+      "id": "j_b_block_spine",
+      "name": "B-Block Central Walkway",
+      "coordinates": {
+        "lat": 30.769,
+        "lng": 76.5759
+      },
+      "code": "J_B_BLOCK_SPINE",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: B-Block Central Walkway",
+      "aliases": [
+        "B-Block Central Walkway"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 749,
+        "y": 362
+      }
+    },
+    {
+      "id": "j_b3_south",
+      "name": "Engineering South Concourse",
+      "coordinates": {
+        "lat": 30.7684,
+        "lng": 76.5758
+      },
+      "code": "J_B3_SOUTH",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Engineering South Concourse",
+      "aliases": [
+        "Engineering South Concourse"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 740,
+        "y": 408
+      }
+    },
+    {
+      "id": "j_b4_walk",
+      "name": "B4 Walkway Junction",
+      "coordinates": {
+        "lat": 30.76875,
+        "lng": 76.5742
+      },
+      "code": "J_B4_WALK",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: B4 Walkway Junction",
+      "aliases": [
+        "B4 Walkway Junction"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 595,
+        "y": 381
+      }
+    },
+    {
+      "id": "j_spine_west",
+      "name": "Central-to-South Campus Spine",
+      "coordinates": {
+        "lat": 30.7701,
+        "lng": 76.5738
+      },
+      "code": "J_SPINE_WEST",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Central-to-South Campus Spine",
+      "aliases": [
+        "Central-to-South Campus Spine"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 559,
+        "y": 276
+      }
+    },
+    {
+      "id": "j_b5_junction",
+      "name": "B5 DACA Walkway Junction",
+      "coordinates": {
+        "lat": 30.7702,
+        "lng": 76.5723
+      },
+      "code": "J_B5_JUNCTION",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: B5 DACA Walkway Junction",
+      "aliases": [
+        "B5 DACA Walkway Junction"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 423,
+        "y": 268
+      }
+    },
+    {
+      "id": "j_d_block_east",
+      "name": "South Campus East Entrance",
+      "coordinates": {
+        "lat": 30.771,
+        "lng": 76.571
+      },
+      "code": "J_D_BLOCK_EAST",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: South Campus East Entrance",
+      "aliases": [
+        "South Campus East Entrance"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 306,
+        "y": 206
+      }
+    },
+    {
+      "id": "j_d_block_quad",
+      "name": "South Campus D-Quad Center",
+      "coordinates": {
+        "lat": 30.7712,
+        "lng": 76.57
+      },
+      "code": "J_D_BLOCK_QUAD",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: South Campus D-Quad Center",
+      "aliases": [
+        "South Campus D-Quad Center"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 215,
+        "y": 191
+      }
+    },
+    {
+      "id": "j_star_lib_plaza",
+      "name": "Star Library Plaza",
+      "coordinates": {
+        "lat": 30.7714,
+        "lng": 76.5692
+      },
+      "code": "J_STAR_LIB_PLAZA",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Star Library Plaza",
+      "aliases": [
+        "Star Library Plaza"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 143,
+        "y": 175
+      }
+    },
+    {
+      "id": "j_d_block_south",
+      "name": "South Campus Athletic Link",
+      "coordinates": {
+        "lat": 30.7701,
+        "lng": 76.57
+      },
+      "code": "J_D_BLOCK_SOUTH",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: South Campus Athletic Link",
+      "aliases": [
+        "South Campus Athletic Link"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 215,
+        "y": 276
+      }
+    },
+    {
+      "id": "j_sports_gate",
+      "name": "Sports Complex Gate",
+      "coordinates": {
+        "lat": 30.7689,
+        "lng": 76.5691
+      },
+      "code": "J_SPORTS_GATE",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Sports Complex Gate",
+      "aliases": [
+        "Sports Complex Gate"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 134,
+        "y": 370
+      }
+    },
+    {
+      "id": "j_c_block_spine",
+      "name": "C-Block Pathway Junction",
+      "coordinates": {
+        "lat": 30.7672,
+        "lng": 76.5759
+      },
+      "code": "J_C_BLOCK_SPINE",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: C-Block Pathway Junction",
+      "aliases": [
+        "C-Block Pathway Junction"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 749,
+        "y": 502
+      }
+    },
+    {
+      "id": "j_c2_junction",
+      "name": "C2 Academic Concourse",
+      "coordinates": {
+        "lat": 30.7663,
+        "lng": 76.576
+      },
+      "code": "J_C2_JUNCTION",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: C2 Academic Concourse",
+      "aliases": [
+        "C2 Academic Concourse"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 758,
+        "y": 572
+      }
+    },
+    {
+      "id": "j_south_hostel_fork",
+      "name": "South Hostel Road Fork",
+      "coordinates": {
+        "lat": 30.7654,
+        "lng": 76.5746
+      },
+      "code": "J_SOUTH_HOSTEL_FORK",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: South Hostel Road Fork",
+      "aliases": [
+        "South Hostel Road Fork"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 631,
+        "y": 642
+      }
+    },
+    {
+      "id": "j_nc_hostel_plaza",
+      "name": "NC Boys Hostel Plaza",
+      "coordinates": {
+        "lat": 30.7644,
+        "lng": 76.5744
+      },
+      "code": "J_NC_HOSTEL_PLAZA",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: NC Boys Hostel Plaza",
+      "aliases": [
+        "NC Boys Hostel Plaza"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 613,
+        "y": 720
+      }
+    },
+    {
+      "id": "j_zakir_hostel_plaza",
+      "name": "Zakir Boys Hostel Plaza",
+      "coordinates": {
+        "lat": 30.764,
+        "lng": 76.5721
+      },
+      "code": "J_ZAKIR_HOSTEL_PLAZA",
+      "category": "Pathway Junction",
+      "region": "Pedestrian Network",
+      "icon": "🔹",
+      "description": "Pedestrian walkway junction: Zakir Boys Hostel Plaza",
+      "aliases": [
+        "Zakir Boys Hostel Plaza"
+      ],
+      "node_type": "junction",
+      "verification_status": "Verified Walkway Intersection",
+      "schematic": {
+        "x": 405,
+        "y": 751
+      }
+    }
+  ],
+  "paths": [
+    {
+      "source": "main_gate",
+      "target": "j_gate_plaza",
+      "distance": 50,
+      "description": "Main Gate Arrival Walk",
+      "path_type": "Paved Entrance Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_gate_plaza",
+      "target": "j_north_avenue",
+      "distance": 140,
+      "description": "North Palm Avenue",
+      "path_type": "Paved Boulevard Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_north_avenue",
+      "target": "a1",
+      "distance": 50,
+      "description": "Block A1 Entrance Path",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_north_avenue",
+      "target": "j_food_court",
+      "distance": 105,
+      "description": "North Concourse Walkway",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_food_court",
+      "target": "food_court",
+      "distance": 50,
+      "description": "Food Court Concourse",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_food_court",
+      "target": "sbi_bank",
+      "distance": 85,
+      "description": "SBI Plaza Access",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_food_court",
+      "target": "j_fountain_north",
+      "distance": 110,
+      "description": "Fountain Park North Concourse",
+      "path_type": "Tree-lined Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_north",
+      "target": "parking_central",
+      "distance": 25,
+      "description": "Central Parking Access",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_north",
+      "target": "central_knowledge_centre",
+      "distance": 35,
+      "description": "Knowledge Centre North Steps",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_north",
+      "target": "j_fountain_center",
+      "distance": 55,
+      "description": "Fountain Park Promenade",
+      "path_type": "Park Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_north",
+      "target": "j_fountain_east",
+      "distance": 145,
+      "description": "Fountain Park North-East Arc",
+      "path_type": "Park Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_center",
+      "target": "fountain_park",
+      "distance": 20,
+      "description": "Central Fountain Basin",
+      "path_type": "Park Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_center",
+      "target": "central_knowledge_centre",
+      "distance": 50,
+      "description": "Knowledge Centre Plaza Link",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_center",
+      "target": "j_fountain_east",
+      "distance": 140,
+      "description": "Fountain Park East Promenade",
+      "path_type": "Park Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_center",
+      "target": "central_passage",
+      "distance": 60,
+      "description": "Central Passage East Link",
+      "path_type": "Plaza Promenade",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "central_passage",
+      "target": "j_kalam_plaza",
+      "distance": 40,
+      "description": "Central Passage West Concourse",
+      "path_type": "Plaza Promenade",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_center",
+      "target": "j_kalam_plaza",
+      "distance": 95,
+      "description": "Fountain-Kalam Plaza Walk",
+      "path_type": "Plaza Promenade",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_east",
+      "target": "a2",
+      "distance": 130,
+      "description": "Block A2 Concourse",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_fountain_east",
+      "target": "a3",
+      "distance": 65,
+      "description": "Block A3 Concourse",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "a1",
+      "target": "j_fountain_east",
+      "distance": 290,
+      "description": "East Academic Link Road",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_kalam_plaza",
+      "target": "b1_kalam",
+      "distance": 35,
+      "description": "Kalam Mural Block Entrance",
+      "path_type": "Covered Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_kalam_plaza",
+      "target": "j_b_block_spine",
+      "distance": 125,
+      "description": "B-Block North-South Spine",
+      "path_type": "Covered Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_b_block_spine",
+      "target": "b2",
+      "distance": 20,
+      "description": "Block B2 Main Entrance",
+      "path_type": "Covered Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_b_block_spine",
+      "target": "b3",
+      "distance": 35,
+      "description": "Block B3 Main Entrance",
+      "path_type": "Covered Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_b_block_spine",
+      "target": "j_b3_south",
+      "distance": 75,
+      "description": "B2-B3 Engineering Spine",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_b3_south",
+      "target": "b3",
+      "distance": 45,
+      "description": "Block B3 South Access",
+      "path_type": "Covered Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_b3_south",
+      "target": "parking_b3",
+      "distance": 20,
+      "description": "B3 Parking Access",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_b3_south",
+      "target": "j_b4_walk",
+      "distance": 175,
+      "description": "B3-B4 Quad Connector",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_b4_walk",
+      "target": "b4",
+      "distance": 55,
+      "description": "Block B4 Main Entrance",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_kalam_plaza",
+      "target": "j_spine_west",
+      "distance": 245,
+      "description": "Central-to-D-Block Mall",
+      "path_type": "Pedestrian Mall",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_spine_west",
+      "target": "j_b5_junction",
+      "distance": 160,
+      "description": "Central West Promenade",
+      "path_type": "Pedestrian Mall",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_b5_junction",
+      "target": "b5_daca",
+      "distance": 30,
+      "description": "B5 DACA Main Entrance",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_b5_junction",
+      "target": "j_d_block_east",
+      "distance": 170,
+      "description": "South Campus Gateway Path",
+      "path_type": "Pedestrian Mall",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_east",
+      "target": "j_d_block_quad",
+      "distance": 110,
+      "description": "D-Block Quad East Concourse",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_quad",
+      "target": "d1",
+      "distance": 50,
+      "description": "Block D1 Entrance",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_quad",
+      "target": "d2",
+      "distance": 50,
+      "description": "Block D2 Entrance",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_quad",
+      "target": "d3",
+      "distance": 60,
+      "description": "Block D3 Entrance",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_quad",
+      "target": "d4",
+      "distance": 95,
+      "description": "Block D4 Entrance",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_quad",
+      "target": "d5",
+      "distance": 35,
+      "description": "Block D5 Entrance",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_quad",
+      "target": "d7",
+      "distance": 145,
+      "description": "Block D7 North Link",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_quad",
+      "target": "j_star_lib_plaza",
+      "distance": 90,
+      "description": "Star Library Quad Link",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_star_lib_plaza",
+      "target": "d6_star_library",
+      "distance": 30,
+      "description": "Star Library Main Portal",
+      "path_type": "Plaza Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_star_lib_plaza",
+      "target": "shivalik_hostel",
+      "distance": 65,
+      "description": "Shivalik Hostel Entrance",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_quad",
+      "target": "j_d_block_south",
+      "distance": 135,
+      "description": "D-Quad South Concourse",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_south",
+      "target": "d4",
+      "distance": 50,
+      "description": "Block D4 South Access",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_d_block_south",
+      "target": "j_sports_gate",
+      "distance": 180,
+      "description": "South Campus-to-Sports Path",
+      "path_type": "Illuminated Footpath",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_sports_gate",
+      "target": "sports_complex",
+      "distance": 30,
+      "description": "Maka Trophy Stadium Gate",
+      "path_type": "Illuminated Footpath",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_b3_south",
+      "target": "j_c_block_spine",
+      "distance": 150,
+      "description": "Central-to-C-Block Spine",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_c_block_spine",
+      "target": "c1",
+      "distance": 45,
+      "description": "Block C1 Entrance",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_c_block_spine",
+      "target": "c3",
+      "distance": 135,
+      "description": "Block C3 Entrance",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_c_block_spine",
+      "target": "j_c2_junction",
+      "distance": 115,
+      "description": "C1-to-C2 Concourse",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_c2_junction",
+      "target": "c2",
+      "distance": 15,
+      "description": "Block C2 Main Entrance",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_c2_junction",
+      "target": "j_south_hostel_fork",
+      "distance": 185,
+      "description": "C-Block to Hostel Avenue",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_south_hostel_fork",
+      "target": "j_nc_hostel_plaza",
+      "distance": 125,
+      "description": "NC Hostel Access Road",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_nc_hostel_plaza",
+      "target": "nc1_hostel",
+      "distance": 95,
+      "description": "NC 1 Boys Hostel Portal",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_nc_hostel_plaza",
+      "target": "nc2_hostel",
+      "distance": 75,
+      "description": "NC 2 Boys Hostel Portal",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_nc_hostel_plaza",
+      "target": "nc3_hostel",
+      "distance": 30,
+      "description": "NC 3 Boys Hostel Portal",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_nc_hostel_plaza",
+      "target": "nc4_hostel",
+      "distance": 40,
+      "description": "NC 4 Boys Hostel Portal",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_nc_hostel_plaza",
+      "target": "nc5_hostel",
+      "distance": 90,
+      "description": "NC 5 Boys Hostel Portal",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_nc_hostel_plaza",
+      "target": "nc6_hostel",
+      "distance": 100,
+      "description": "NC 6 Boys Hostel Portal",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_south_hostel_fork",
+      "target": "j_zakir_hostel_plaza",
+      "distance": 320,
+      "description": "Zakir Hostel Access Road",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_nc_hostel_plaza",
+      "target": "j_zakir_hostel_plaza",
+      "distance": 250,
+      "description": "Inter-Hostel Pedestrian Mall",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_zakir_hostel_plaza",
+      "target": "zakir_a_hostel",
+      "distance": 60,
+      "description": "Zakir A Hostel Portal",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_zakir_hostel_plaza",
+      "target": "zakir_b_hostel",
+      "distance": 80,
+      "description": "Zakir B Hostel Portal",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_zakir_hostel_plaza",
+      "target": "zakir_c_hostel",
+      "distance": 75,
+      "description": "Zakir C Hostel Portal",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_zakir_hostel_plaza",
+      "target": "zakir_d_hostel",
+      "distance": 45,
+      "description": "Zakir D Hostel Portal",
+      "path_type": "Paved Walkway",
+      "verification_status": "Verified internal walkway"
+    },
+    {
+      "source": "j_sports_gate",
+      "target": "j_zakir_hostel_plaza",
+      "distance": 690,
+      "description": "West Perimeter Sports-Hostel Link",
+      "path_type": "Perimeter Pathway",
+      "verification_status": "Verified internal walkway"
+    }
+  ]
+}

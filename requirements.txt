@@ -1,0 +1,7 @@
+# CampusFlow - Smart Campus Navigation System
+# Requirements specification for college ADSA project
+
+streamlit>=1.30.0
+folium>=0.15.0
+streamlit-folium>=0.16.0
+pillow>=10.0.0
